@@ -9,8 +9,6 @@ script:
   - npm run build
 before_install:
   - composer config --global github-oauth.github.com "$GITHUB_TOKEN"
-install:
-  - composer install --dev --prefer-dist
 env:
   global:
     secure: "CJ249p1kaJpMSu3p/izQpYr+IUtXxVKxUr5cI8dhSnY+ZX1X4d+dJqLmRzmuWOLnfJLkx9SBKfyt5hMI2cAxehWqqXNlQsmlcrBRDORG0CC2MVkIe52cgZPyRM6RlU7MSAc2BFIhyMfvC5O+oMSsq4Llaz+xFsYQcIshnJHE4Axh2xbSlvDsNV/KrsQLS9w+PBw+Oo3CJ3Vv57SoR5d78q7PmjduH18mUJ+n8MYlDXIpLeUHMWS9iyzIxdQSNmCvmfWA+lC75N5kJR6rlIq/aAVTUA2bN4swm0r0wc3Z/LpYa9GLacGZnk3+X+AWllLT6vLTyq7c/iqeZRuzOcTE8/d/7qdoYBxgI8QTr29UCVR9WldsoAzsBqxt6IxtY/f+y1xSjYTHWLPTnQj0YKMVPamquTQyKIqgt0D/l+LBMtTThg1NeP6HvWIUae9uilcaWV51s621V/ZlXx6GC+oBI2SJY/1OW0pKyW16Lsle83DKhhf9xb2/x5D+qgWxXnIK6Xd5EyoU/1DtO06gAjLrHTIAIbc8fmwf6HWN/+s2QKNMDQNXoGPlk9QHPKdq6omFQSdv8Pm43pAJ9SdHqA/Xs3gaowhcGDzpkWe3pYNl7kHuy/2oV9+S54cafSEHkmYWAYqQBt6xJYiFIwuKBGlwCd745R6RxZbaZYZHwQ/l9yg="
