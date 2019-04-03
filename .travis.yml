@@ -7,11 +7,14 @@ cache:
 script:
   - npm test
   - npm run build
+env:
+  global:
+   - secure: "Avco04igRW1/gGB5AcZRPBk4upge2GPwdz8QHc++vmQmF8oviEGj1kNzFXfqjgcIHVKRJ7JP82ixdPpQdAX26MHl1CTsHUHD08LjWJRQoaN2HRxVreoRLi33LYewNfXza3qzS9t6EK0rjFg9x0i1TfecQn4hNY6yc/l8CYD8hWtxJvzaO31URwlFpG/5O8KPoObVCpaH7ZYeSKogqKrnO5mpKhp5YU1HAZUTUARV7AwbDJlmk7t6Y9NHj3qY5UGtZbabKuWXEXj3phqZxEhTOREHTOJXWAW6VLSoZ5r/HplEI8ZB70K/sPzgtVe3E2ddPF3E6H/sK6ty6JavG1CWQc+1stM2UeFuS7ZKb21pe8SGd3Uqh5hWz7D8OtRUnhyST3i4w4mg60Rw+yF8aClluaZ6biLd1Jv6k+J19/A9jK4m75pYSgKpkqzDdslxBd+xUYIC7xagaimmuMQEGiCYCFubqlz94P4HfLZqgysMI3M3da/5rAIx2WE9QzIR/5J28+zVEAuDvXkCQsnMKLCeVvH/qw/eV4NzBABI8LpZrCZLTRhXldfxRSjOUTGg+Obsxu8czUgxea+KG0Up7PchzqLu7EiRoOVM9zAa5R9oCybeo0Yj7lM0drR+YitMsK42PvLXxP3lZUd9B9D8ZCtQzNZRVB6N/ogzbF5szWd9OL8="
+
 
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 68484a72574df150c0b74cb35ff240940a0027a1
   local_dir: build
   on:
     branch: master
