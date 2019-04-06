@@ -1,0 +1,14 @@
+/* Main page CSS */
+
+main {
+	background: #010101;
+	color: #FAFAFA;
+}
+
+.icons-social a {
+	color: #4B5658;
+}
+
+.icons-social a svg path{
+	fill: #4B5658;
+}
