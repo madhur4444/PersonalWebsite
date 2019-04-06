@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './css/reset.css'
 import './css/white-black.css'
+require('dotenv').config();
 
 class App extends Component {
   render() {
