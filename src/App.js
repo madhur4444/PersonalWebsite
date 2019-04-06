@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         	<main>
-            <div className="intro">Hello, I'm Madhur!</div>
+            <div className="intro">Hello, I'm Madhur! (Aka MKS)</div>
             {/* add sub line later  */}
               <div className="tagline">Spark DEV | Blockchain Fanatic | Linux Hacker | Yeahh</div>
              {/* Fonts are here https://fontawesome.com/icons?d=gallery&s=brands */}
