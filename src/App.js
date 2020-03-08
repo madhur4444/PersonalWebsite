@@ -11,7 +11,7 @@ class App extends Component {
         	<main>
             <div className="intro">Hello, I'm Madhur! (Aka MKS)</div>
             {/* add sub line later  */}
-              <div className="tagline">Spark DEV | DeVOps | Blockchain Fanatic | Linux Hacker </div>
+              <div className="tagline">Spark DEV | DevOps | Blockchain Fanatic | Linux Hacker </div>
              
                   <div className="icons-social">
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/madhur4444"><i className="fa fa-github"></i></a>
