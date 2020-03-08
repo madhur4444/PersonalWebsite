@@ -17,7 +17,7 @@ class App extends Component {
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/madhur4444"><i className="fa fa-github"></i></a>
                         <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/madhur4444"><i className="fa fa-twitter"></i></a>
                         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/madhurkumarsharma/"><i className="fa fa-linkedin"></i></a>
-	    		<a target="_blank" rel="noopener noreferrer" href="https://devpost.com/madhur44444444"><i className="fab fa-dev"></i></a>
+	    		<a target="_blank" rel="noopener noreferrer" href="https://devpost.com/madhur44444444"><i className="fa fa-code"></i></a>
                   </div>
 	        </main>
       </div>
