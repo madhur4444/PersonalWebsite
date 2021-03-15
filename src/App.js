@@ -20,7 +20,7 @@ class App extends Component {
 	    		              <a target="_blank" rel="noopener noreferrer" href="https://devpost.com/madhur44444444"><i className="fa fa-code"></i></a>
                   </div>
                   <div className="currentProjects"><p><b>Current Updates - </b> <br></br> <br></br>
-                  - Working at Manulife Financial as DevOps Engineer<br></br>
+                  - Working at Manulife Financial as DevOps Engineer<br></br> </p>
                   </div>
 
                   <div className="currentProjects">
