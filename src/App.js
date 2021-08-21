@@ -20,11 +20,11 @@ class App extends Component {
 	    		              <a target="_blank" rel="noopener noreferrer" href="https://devpost.com/madhur44444444"><i className="fa fa-code"></i></a>
                   </div>
                   <div className="currentProjects"><p><b>Current Updates - </b> <br></br> <br></br>
-                  - Working at Manulife Financial as DevOps Engineer<br></br> </p>
+                  - Working at <a href="https://messari.io/">Messari</a> in their R&D <br></br> </p>
                   </div>
 
                   <div className="currentProjects">
-                  <span>Website Last Updated on March, 2021</span>
+                  <span>Website Last Updated on 21st Aug, 2021</span>
                   </div>
 
 	        </main>
